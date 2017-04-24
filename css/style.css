@@ -1,0 +1,669 @@
+﻿.container {
+  width: 1349px;
+  margin: 0 auto;
+}
+
+.top img {
+  width: 1348px;
+  height: 800px;
+  z-index: 3;
+  position: absolute;
+  filter: brightness(0.25);
+}
+
+.logo img { 
+  width: 40px;
+  z-index: 4;
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 28px;
+}
+
+.logo p {
+  z-index: 4;
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 80px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  z-index: 4;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 985px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav img {
+  z-index: 4;
+  position: absolute;
+  margin-top: -18px;
+  margin-left: 310px;
+}
+
+header .title p:nth-child(1) {
+  z-index: 4;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 440px;
+  color: white;
+  font-size: 92px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header .title p:nth-child(2) {
+  z-index: 4;
+  position: absolute;
+  margin-top: 290px;
+  margin-left: 400px;
+  color: #ed6950;
+  font-size: 92px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header .title p:nth-child(3) {
+  z-index: 4;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 485px;
+  color: #6b6e6f;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header button {
+  z-index: 4;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 555px;
+  background: #ed6950;
+  color: white;
+  font-size: 16px;
+  width: 240px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header button:hover {
+  z-index: 4;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 555px;
+  background: #f5826d;
+  color: white;
+  font-size: 16px;
+  width: 240px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.city p {
+  z-index: 5;
+  position: absolute;
+  margin-top: 660px;
+  margin-left: 572px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.city img:nth-child(2) {
+  z-index: 5;
+  position: absolute;
+  margin-top: 700px;
+  width: 242px;
+  height: 300px;
+}
+
+.city img:nth-child(3) {
+  z-index: 5;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 262.5px;
+  width: 260px;
+  height: 300px;
+}
+
+.city img:nth-child(4) {
+  z-index: 5;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 543px;
+  width: 260px;
+  height: 300px;
+}
+
+.city img:nth-child(5) {
+  z-index: 5;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 825.5px;
+  width: 242px;
+  height: 300px;
+}
+
+.city img:nth-child(6) {
+  z-index: 5;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 1088px;
+  width: 260px;
+  height: 300px;
+}
+
+.city button {
+  z-index: 5;
+  position: absolute;
+  margin-top: 920px;
+  margin-left: 600px;
+  background: #ed6950;
+  color: white;
+  font-size: 14px;
+  width: 150px;
+  height: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.city button:hover {
+  z-index: 5;
+  position: absolute;
+  margin-top: 920px;
+  margin-left: 600px;
+  background: #f5826d;
+  color: white;
+  font-size: 14px;
+  width: 150px;
+  height: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+.city_p p:nth-child(1) {
+  z-index: 6;
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 325px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+} 
+
+.city_p p:nth-child(2) {
+ z-index: 6;
+  position: absolute;
+  margin-top: 920px;
+  margin-left: 355px;
+  font-size: 14px;
+  color: #ffc74a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.city_p p:nth-child(3) {
+  z-index: 6;
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 590px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+} 
+
+.city_p p:nth-child(4) {
+ z-index: 6;
+  position: absolute;
+  margin-top: 850px;
+  margin-left: 625px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.city_p p:nth-child(5) {
+  z-index: 6;
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 905px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+} 
+
+.city_p p:nth-child(6) {
+ z-index: 6;
+  position: absolute;
+  margin-top: 920px;
+  margin-left: 912px;
+  font-size: 14px;
+  color: #ffc74a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search {
+  z-index: 5;
+  position: absolute;
+  margin-top: 1040px;
+  margin-left: 535px;
+  width: 500px;
+}
+.search h2 {
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  width: 280px;
+}
+
+.search input[type="search"]{
+  width: 570px;
+  height: 42px;
+  margin-left: -150px;
+  margin-top: 20px;
+  padding-left: 15px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 85px 0 rgba(141,148,169,0.40);
+}
+
+.search img:first-of-type {
+  position: relative;
+  right: 40px;
+  top: 2px;
+}
+
+.search_bg {
+  position: relative;
+  right: 700px;
+  width: 1300px;
+}
+
+.search_bg img {
+  display: inline-block;
+}
+
+.search_bg img:nth-child(1) {
+  margin-left: 400px;
+  width: 360px;
+  height: 372px;
+}
+
+.search_bg img:nth-child(2) {
+  margin-left: -120px;
+  width: 360px;
+  height: 372px;
+}
+
+.search_bg img:nth-child(3) {
+  margin-left: -80px;
+  width: 360px;
+  height: 372px;
+}
+
+.search_bg img:nth-child(4) {
+  margin-left: 360px;
+  width: 365px;
+  height: 372px;
+}
+
+.search_bg img:nth-child(5) {
+  margin-left: -80px;
+  width: 360px;
+  height: 372px;
+}
+
+.search_bg img:nth-child(6) {
+  margin-left: -80px;
+  width: 360px;
+  height: 372px;
+}
+
+.search .search_p p {
+  position: absolute;
+  margin-top: -1055px;
+  margin-left: -200px;
+}
+
+/* Пока что записал всё через тег <p> */
+
+/* Poznan */
+
+.search .search_p p:nth-child(1) {
+  position: absolute;
+  font-size: 30px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search .search_p p:nth-child(2) {
+  position: absolute;
+  margin-top: -1020px;
+  margin-left: -200px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Warsaw */
+
+.search .search_p p:nth-child(3) {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 70px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search .search_p p:nth-child(4) {
+  position: absolute;
+  margin-top: -1020px;
+  margin-left: 79px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Wroclaw */
+
+.search .search_p p:nth-child(5) {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 350px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search .search_p p:nth-child(6) {
+  position: absolute;
+  margin-top: -1020px;
+  margin-left: 368px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Karpacz */
+
+.search .search_p p:nth-child(7) {
+  position: absolute;
+  font-size: 30px;
+  margin-top: -680px;
+  margin-left: -210px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search .search_p p:nth-child(8) {
+  position: absolute;
+  margin-top: -645px;
+  margin-left: -200px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Dolina Olczyska */
+
+.search .search_p p:nth-child(9) {
+  position: absolute;
+  font-size: 30px;
+  margin-top: -680px;
+  margin-left: 12px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+.search .search_p p:nth-child(10) {
+  position: absolute;
+  margin-top: -645px;
+  margin-left: 82px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Kozy */
+
+.search .search_p p:nth-child(11) {
+  position: absolute;
+  font-size: 30px;
+  margin-top: -680px;
+  margin-left: 385px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search .search_p p:nth-child(12) {
+  position: absolute;
+  margin-top: -645px;
+  margin-left: 393px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Картинки городов */
+
+.cities {
+  position: relative;
+  bottom: 600px;
+  right: 300px;
+  width: 900px;
+}
+
+.cities img {
+  display: block;
+  width: 220px;
+}
+
+.cities img:nth-child(1) {
+  top: -75px;
+  left: 30px;
+}
+
+.cities img:nth-child(2) {
+  margin-left: 315px;
+  margin-top: -182px;
+}
+
+.cities img:nth-child(3) {
+  margin-top: -195px;
+  margin-left: 510px;
+  padding: 90px;
+}
+
+.cities img:nth-child(4) {
+  margin-top: 90px;
+  margin-left: -60px;
+  padding: 90px;
+}
+
+.cities img:nth-child(5) {
+  margin-top: -285px;
+  margin-left: 230px;
+  padding: 90px;
+}
+
+.cities img:nth-child(6) {
+  margin-top: -285px;
+  margin-left: 515px;
+  padding: 90px;
+}
+
+/* Кнопки */
+
+.search .view button {
+  position: absolute;
+  margin-top: -990px;
+  margin-left: -215px;
+  background: #ed6950;
+  color: white;
+	font-size: 14px;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 0 85px 0 rgba(141,148,169,0.40);
+}
+
+.search .view button:hover {
+  position: absolute;
+  margin-top: -990px;
+  margin-left: -215px;
+  background: #ffffff;
+  color: black;
+  font-size: 14px;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search .view button:nth-child(2) {
+  position: absolute;
+  margin-top: -990px;
+  margin-left: 62px;
+}
+
+.search .view button:nth-child(3) {
+  position: absolute;
+  margin-top: -990px;
+  margin-left: 352px;
+}
+
+.search .view button:nth-child(4) {
+  position: absolute;
+  margin-top: -615px;
+  margin-left: -215px;
+}
+
+.search .view button:nth-child(5) {
+  position: absolute;
+  margin-top: -615px;
+  margin-left: 62px;
+}
+
+.search .view button:nth-child(6) {
+  position: absolute;
+  margin-top: -615px;
+  margin-left: 352px;
+}
+
+.explore {
+  position: absolute;
+  margin-top: 2000px;
+  width: 1349px;
+}
+
+.explore .explore_bg img {
+  width: 1349px;
+}
+
+.explore h2 {
+  position: absolute;
+  margin-top: -700px;
+  font-size: 30px;
+  margin-left: 580px;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+  
+  
+}
+
+.explore .column-left {
+  width: 600px;
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 50px;
+}
+
+.explore h3 {
+  
+}
+
+.explore p {
+  
+}
+
+.explore br {
+  
+}
+
+.explore button {
+  
+}
+
+.explore .column-right {
+  width: 600px;
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 700px;
+}
+
+.explore .column-right img:nth-child(1) {
+  width: 450px;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.explore .column-right img:nth-child(2) {
+  position: absolute;
+  margin-left: -500px;
+  width: 450px;
+}
+
+.newsletter {
+  position: absolute;
+  margin-top: 2600px;
+  width: 1349px;
+}
+
+.newsletter img {
+  width: 1349px;
+}
+
+.newsletter h2 {
+  
+}
+
+.newsletter button {
+  
+}
+
+.newsletter p {
+  
+}
+
+.newsletter a {
+  
+}
+
+footer {
+  position: absolute;
+  margin-top: 3400px;
+  width: 1349px;
+}
+
+footer p {
+  
+}
+
+footer img {
+  
+}
